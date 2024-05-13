@@ -35,5 +35,11 @@ main {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    padding: 10px 0;
+    padding: 5px 0;
+    list-style-type: none;
+}
+
+#socials i {
+    font-size: 150%;
+    color: #000000;
 }
