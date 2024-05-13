@@ -18,6 +18,7 @@ body {
     color: #000000;
     background-color: #ffffff;
 }
+
 /* Header */
 header {
     font-family: 'Roboto+Mono', sans-serif;
@@ -34,12 +35,17 @@ header a {
 /* Nav Bar */
 nav {
     color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 1rem 0;
+    top: 100%;
 }
 
 .nav {
     display: inline-block;
     padding: 0 10px;
     list-style-type: none;
+    font-size: 80%;
 }
 
 /* Main */
