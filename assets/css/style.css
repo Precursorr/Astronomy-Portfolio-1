@@ -9,7 +9,14 @@
 }
 
 /* Body */
-
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Main Font and color for all texts unless stated otherwise */
+    font-family: 'Barlow', sans-serif;
+    color: #000000;
+}
 /* Head */
 header {
     background-color: red;
@@ -18,6 +25,8 @@ header {
 /* Main */
 main {
     background-color: blue;
+    /* Main main take up any empty space on screen */
+    flex: 1 0 auto;
 }
 
 /* Footer */
