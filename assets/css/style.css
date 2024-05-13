@@ -16,6 +16,7 @@ body {
     /* Main Font and color for all texts unless stated otherwise */
     font-family: 'Barlow', sans-serif;
     color: #000000;
+    background-color: #ffffff;
 }
 /* Head */
 header {
