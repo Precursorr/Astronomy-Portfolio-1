@@ -42,11 +42,11 @@ nav {
     display: none;
 }
 
-.nav {
+.menu {
     display: inline-block;
     padding: 0 10px;
     list-style-type: none;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 /* Nav toggle */
@@ -56,6 +56,10 @@ nav {
 
 #nav-toggle {
     display: none;
+}
+
+.nav-toggle-label {
+    font-size: 150%;
 }
 
 /* Main */
