@@ -26,6 +26,7 @@ header {
     text-align: center;
     background: url(../images/esotelescope.jpg);
     position: absolute;
+    width: 100%;
 }
 
 header a {
@@ -41,6 +42,7 @@ nav {
     padding: 1rem 0;
     top: 100%;
     display: none;
+    border: 1px solid #ffffff;
 }
 
 .menu {
