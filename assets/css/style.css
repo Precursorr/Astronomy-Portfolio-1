@@ -24,17 +24,18 @@ header {
     font-family: 'Roboto+Mono', sans-serif;
     font-size: 100%;
     text-align: center;
-    background-color: #ffffff;
+    background: url(../images/esotelescope.jpg);
+    position: absolute;
 }
 
 header a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }
 
 /* Nav Bar */
 nav {
-    color: #000000;
+    color: #ffffff;
     width: 100%;
     left: 0;
     padding: 1rem 0;
@@ -44,9 +45,9 @@ nav {
 
 .menu {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 5px;
     list-style-type: none;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 /* Nav toggle */
