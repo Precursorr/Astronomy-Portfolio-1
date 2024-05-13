@@ -25,7 +25,7 @@ header {
     padding-top: 5px;
     font-size: 100%;
     text-align: center;
-    background: url(../images/esotelescope.jpg);
+    background: url(../images/esotelescope.jpg) no-repeat center top/cover;
     position: absolute;
     width: 100%;
     border-bottom: 0.5px solid #ffffff;
@@ -68,6 +68,11 @@ nav {
     font-size: 150%;
 }
 
+.active {
+    border-bottom: 1px solid #ffffff;
+}
+
+
 /* Main */
 main {
     background-color: #000000;
@@ -100,7 +105,8 @@ main {
         width: 100%;
         display: flex;
         justify-content: space-between;
-    }
+        background: url(../images/esotelescope.jpg) no-repeat center center/cover;
+        }
 
     /* Nav */ 
     nav {
@@ -111,6 +117,7 @@ main {
         padding-right: 0.8rem;
         padding-top: 13px;
         border: none;
+        font-size: 120%;
     }
 
     .nav-toggle-label {
