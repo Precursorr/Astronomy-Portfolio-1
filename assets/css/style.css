@@ -18,10 +18,19 @@ body {
     color: #000000;
     background-color: #ffffff;
 }
-/* Head */
+/* Header */
 header {
-    background-color: red;
+    font-family: 'Roboto+Mono', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    background-color: #000000;
 }
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 /* Main */
 main {
