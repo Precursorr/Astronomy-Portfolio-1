@@ -22,11 +22,14 @@ body {
 /* Header */
 header {
     font-family: 'Roboto+Mono', sans-serif;
+    padding-top: 5px;
     font-size: 100%;
     text-align: center;
     background: url(../images/esotelescope.jpg);
     position: absolute;
     width: 100%;
+    border-bottom: 0.5px solid #ffffff;
+    align-items: baseline;
 }
 
 header a {
@@ -67,9 +70,11 @@ nav {
 
 /* Main */
 main {
-    background-color: blue;
+    background-color: #000000;
+    color: #ffffff;
     /* Main main take up any empty space on screen */
     flex: 1 0 auto;
+    margin-top: 68px;
 }
 
 /* Footer */
@@ -84,4 +89,32 @@ main {
 #socials i {
     font-size: 150%;
     color: #000000;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    header {
+        padding: 5px 0.8rem;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    /* Nav */ 
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 0.8rem;
+        border: none;
+    }
+
+    /* Main */
+    main {
+        margin-top: 60px;
+    }
 }
