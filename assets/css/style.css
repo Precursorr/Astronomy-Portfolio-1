@@ -31,6 +31,16 @@ header a {
     text-decoration: none;
 }
 
+/* Nav Bar */
+nav {
+    color: #ffffff;
+}
+
+.nav {
+    display: inline-block;
+    padding: 0 10px;
+    list-style-type: none;
+}
 
 /* Main */
 main {
