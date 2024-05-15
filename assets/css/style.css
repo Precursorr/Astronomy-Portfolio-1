@@ -29,6 +29,7 @@ header {
     position: absolute;
     width: 100%;
     border-bottom: 0.5px solid #ffffff;
+    z-index: 99;
 }
 
 header a {
