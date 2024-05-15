@@ -83,6 +83,8 @@ main {
     padding: 4.5rem 0.8rem;
 }
 
+/* Signup main */
+
 /* Solar System page */
 
 #sshead {
@@ -203,7 +205,7 @@ section {
     border: 1px solid #ffffff;
 }
 
-#signupbg {
+.bgimg {
     background: url(../images/Signup\ background.jpg) no-repeat center center/cover;
 }
 
@@ -305,5 +307,17 @@ footer {
     #cell {
         height: 200px;
         margin-bottom: 25px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 1200px) {
+    #cell {
+        height: 400px;
+        width: 400px;
+    }
+
+    #nobr p {
+        font-size: 150%;
     }
 }
