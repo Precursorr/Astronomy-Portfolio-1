@@ -123,6 +123,12 @@ main {
 }
 
 /* Style the front side */
+/* Our Sun */
+#flip-card-front-sun {
+    background: url(../images/Sun.jpg) no-repeat center center/cover;
+    color: black;
+}
+
 /* Earth */
 #flip-card-front-earth {
     background: url(../images/Earth.jpg) no-repeat center center/cover;
@@ -150,6 +156,30 @@ main {
 /* Mars */
 #flip-card-front-mars {
     background: url(../images/Mars.jpg) no-repeat center center/cover;
+    color: black;
+}
+
+/* Jupiter */
+#flip-card-front-jupiter {
+    background: url(../images/Jupiter.jpg) no-repeat center center/cover;
+    color: black;
+}
+
+/* Saturn */
+#flip-card-front-saturn {
+    background: url(../images/Saturn.jpg) no-repeat center center/cover;
+    color: black;
+}
+
+/* Uranus */
+#flip-card-front-uranus {
+    background: url(../images/Uranus.jpg) no-repeat center center/cover;
+    color: black;
+}
+
+/* Neptune */
+#flip-card-front-neptune {
+    background: url(../images/Neptune.jpg) no-repeat center center/cover;
     color: black;
 }
 
