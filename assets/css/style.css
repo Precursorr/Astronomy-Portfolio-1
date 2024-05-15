@@ -88,6 +88,7 @@ main {
 #sshead {
     text-align: center;
 }
+
 /* The flip card container */
 .flip-card {
     background-color: #000000;
@@ -222,6 +223,7 @@ section {
 footer {
     background-color: #ffffff
 }
+
 #socials {
     text-align: center;
     display: flex;
@@ -268,4 +270,40 @@ footer {
         width: 300px;
     }
 
+    #nobr br {
+        display: none;
+    }
+
+    #grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 15px
+
+    }
+
+    #cell {
+        height: 200px;
+        margin-bottom: 40px;
+    }
+
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #nobr br {
+        display: none;
+    }
+
+    #grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    #cell {
+        height: 200px;
+        margin-bottom: 25px;
+    }
 }
