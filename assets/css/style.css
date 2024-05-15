@@ -83,6 +83,11 @@ main {
     padding: 4.5rem 0.8rem;
 }
 
+/* Solar System page */
+
+#sshead {
+    text-align: center;
+}
 /* The flip card container */
 .flip-card {
     background-color: #000000;
@@ -117,9 +122,34 @@ main {
     backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
+/* Style the front side */
+/* Earth */
 #flip-card-front-earth {
     background: url(../images/Earth.jpg) no-repeat center center/cover;
+    color: black;
+}
+
+/* Moon */
+#flip-card-front-moon {
+    background: url(../images/Moon.jpg) no-repeat center center/cover;
+    color: black;
+}
+
+/* Mercury */
+#flip-card-front-mercury {
+    background: url(../images/Mercury.jpg) no-repeat center center/cover;
+    color: black;
+}
+
+/* Venus */
+#flip-card-front-venus {
+    background: url(../images/Venus.jpg) no-repeat center center/cover;
+    color: black;
+}
+
+/* Mars */
+#flip-card-front-mars {
+    background: url(../images/Mars.jpg) no-repeat center center/cover;
     color: black;
 }
 
