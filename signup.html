@@ -28,7 +28,8 @@
         <a href="index.html">
             <h1>Astronomy <i class="fa-solid fa-user-astronaut"></i></h1>
         </a>
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-caret-down" style="color: #ffffff;"></i></label>
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-caret-down"
+                style="color: #ffffff;"></i></label>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <nav>
             <span>
@@ -62,7 +63,7 @@
                 <h2>Join us today to recieve free news letters based on topics your most interested in!</h2>
                 <br>
                 <label for="fname">First Name:</label>
-                <input type="text" name="fname" id="fname"  class="text-input" required>
+                <input type="text" name="fname" id="fname" class="text-input" required>
                 <br>
                 <label for="lname">Last Name:</label>
                 <input type="text" name="lname" id="lname" class="text-input" required>
@@ -78,7 +79,8 @@
                     </div>
                     <div>
                         <label for="option2">Space Probes and Exploration</label>
-                        <input type="checkbox" class="checkbox" id="option2" name="option2" value="space-probes-and-exploration">
+                        <input type="checkbox" class="checkbox" id="option2" name="option2"
+                            value="space-probes-and-exploration">
                     </div>
                     <div>
                         <label for="option3">Local Cluster</label>
@@ -99,8 +101,24 @@
                 </div>
                 <br>
                 <div>
-                    <h3>(Optional) Choose what day and time would suit you best to come join us for our Astronomy meetup:</h3>
-
+                    <h2>(Optional)</h2>
+                    <h3>Choose what day and time would suit you best to come join us for our Astronomy
+                        meetup:</h3>
+                    <label for="choose-day">Choose a day that suits you:</label>
+                    <select name="choose-day" id="choose-day">
+                        <option disabled selected value>Select A Day</option>
+                        <option value="monday">Monday</option>
+                        <option value="wednesday">Wednesday</option>
+                        <option value="friday">Friday</option>
+                    </select>
+                    <br>
+                    <label for="choose-time">Choose a time that suits you:</label>
+                    <select name="choose-time" id="choose-time">
+                        <option disabled selected value>Select A Time</option>
+                        <option value="20:00">20:00</option>
+                        <option value="22:00">22:00</option>
+                        <option value="23:00">23:00</option>
+                    </select>
                 </div>
                 <br>
                 <button type="submit" class="join-us">
