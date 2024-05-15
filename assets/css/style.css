@@ -15,8 +15,8 @@ body {
     flex-direction: column;
     /* Main Font and color for all texts unless stated otherwise */
     font-family: 'Barlow', sans-serif;
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 /* Header */
@@ -46,7 +46,7 @@ nav {
     padding: 1rem 0;
     top: 100%;
     display: none;
-    border: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
 }
 
 .menu {
@@ -80,12 +80,70 @@ main {
     color: #ffffff;
     /* Main main take up any empty space on screen */
     flex: 1 0 auto;
-    margin-top: 68px;
+    padding: 4.5rem 0.8rem;
+}
+
+/* The flip card container */
+.flip-card {
+    background-color: #000000;
+    height: 200px;
+    border: 1px solid #ffffff;
+    perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+#flip-card-front-earth {
+    background: url(../images/Earth.jpg) no-repeat center center/cover;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: #000000;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+    font-size: 90%;
+    padding: 2px 2px;
 }
 
 /* Signup */
 section {
     padding: 1rem 0.8rem;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+}
+
+#signupbg {
+    background: url(../images/Signup\ background.jpg) no-repeat center center/cover;
 }
 
 #topicsh3 {
@@ -101,6 +159,9 @@ section {
 
 
 /* Footer */
+footer {
+    background-color: #ffffff
+}
 #socials {
     text-align: center;
     display: flex;
@@ -116,6 +177,7 @@ section {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     header {
         padding: 0.5rem 0.5rem 0.2rem 0.8rem;
@@ -124,9 +186,9 @@ section {
         display: flex;
         justify-content: space-between;
         background: url(../images/esotelescope.jpg) no-repeat center center/cover;
-        }
+    }
 
-    /* Nav */ 
+    /* Nav */
     nav {
         display: block;
         position: relative;
@@ -142,8 +204,8 @@ section {
         display: none;
     }
 
-    /* Main */
-    main {
-        margin-top: 58px;
+    .flip-card {
+        width: 300px;
     }
+
 }
