@@ -83,6 +83,23 @@ main {
     margin-top: 68px;
 }
 
+/* Signup */
+section {
+    padding: 1rem 0.8rem;
+}
+
+#topicsh3 {
+    padding-bottom: 1px;
+    font-size: 110%;
+}
+
+#topics {
+    padding-top: 2px;
+    letter-spacing: 2px;
+
+}
+
+
 /* Footer */
 #socials {
     text-align: center;
