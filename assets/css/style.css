@@ -123,6 +123,12 @@ main {
     left: 90%;
 }
 
+/* Oppy */
+#oppy-selfie {
+    background: url(../images/Oppy.webp) no-repeat center center/cover;
+    height: 200px;
+}
+
 /* Main Signup */
 /* Solar System page */
 #sshead {
