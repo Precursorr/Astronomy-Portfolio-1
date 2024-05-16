@@ -275,7 +275,7 @@ main {
     font-size: 110%;
 }
 
-#topics {
+.topics {
     padding-top: 2px;
     letter-spacing: 2px;
 
@@ -345,7 +345,7 @@ footer {
 
     }
 
-    #cell {
+    .cell {
         height: 200px;
         margin-bottom: 40px;
     }
@@ -372,7 +372,7 @@ footer {
 
     }
 
-    #cell {
+    .cell {
         height: 200px;
         margin-bottom: 25px;
     }
@@ -403,7 +403,7 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 1200px) {
-    #cell {
+    .cell {
         height: 400px;
         width: 400px;
     }
