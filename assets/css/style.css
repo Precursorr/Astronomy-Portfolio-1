@@ -83,6 +83,8 @@ main {
     padding: 4.5rem 0.8rem;
 }
 
+/* Home Main */
+/* Hero Image */
 #hero {
     background: url(../images/Hero\ Image.webp) no-repeat center center/cover;
     height: 700px;
@@ -95,10 +97,34 @@ main {
     bottom: 10px;
 }
 
-/* Signup main */
+/* Blue Dot */
+#blue-dot-image {
+    background: url(../images/Blue\ Dot\ Sunbeam.jpg) no-repeat center center/cover;
+    height: 200px;
+}
 
+#quote i {
+    font-size: 2rem;
+}
+
+#blue-dot p {
+    text-align: center;
+}
+
+#blue-dot h2 {
+    font-size: 100%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#quote-right {
+    position: relative;
+    left: 90%;
+}
+
+/* Main Signup */
 /* Solar System page */
-
 #sshead {
     text-align: center;
 }
