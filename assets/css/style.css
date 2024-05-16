@@ -25,7 +25,7 @@ header {
     padding-top: 5px;
     font-size: 100%;
     text-align: center;
-    background: url(../images/esotelescope.jpg) no-repeat center top/cover;
+    background: url(../images/Header\ Background.jpg) no-repeat center top/cover;
     position: fixed;
     width: 100%;
     border-bottom: 0.5px solid #ffffff;
@@ -90,6 +90,8 @@ main {
     height: 700px;
     width: fit-content 100%;
     position: relative;
+    border: 1px solid #ffffff;
+    margin-top: 15px;
 }
 
 #cover-text p {
@@ -111,17 +113,18 @@ main {
     text-align: center;
 }
 
-#blue-dot h2 {
-    font-size: 100%;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
 #quote-right {
     position: relative;
     left: 90%;
 }
 
+#home p, #home li, #home h2 {
+    padding: 5px 5px;
+}
+
+#home h2 {
+    border-top: 1px solid;
+}
 /* Oppy */
 #oppy-selfie {
     background: url(../images/Oppy.webp) no-repeat center center/cover;
@@ -133,14 +136,15 @@ main {
 }
 
 /* The Universe */
-#intro {
-    border-bottom: 1px solid #ffffff;
-    padding-bottom: 2px;
+
+#facts {
+    border: 1px solid #ffffff;
 }
 
 #list {
     list-style-type: none;
 }
+
 
 /* Main Signup */
 /* Solar System page */
@@ -185,61 +189,61 @@ main {
 /* Style the front side */
 /* Our Sun */
 #flip-card-front-sun {
-    background: url(../images/Sun.jpg) no-repeat center center/cover;
+    background: url(../images/Sun.webp) no-repeat center center/cover;
     color: black;
 }
 
 /* Earth */
 #flip-card-front-earth {
-    background: url(../images/Earth.jpg) no-repeat center center/cover;
+    background: url(../images/Earth.webp) no-repeat center center/cover;
     color: black;
 }
 
 /* Moon */
 #flip-card-front-moon {
-    background: url(../images/Moon.jpg) no-repeat center center/cover;
+    background: url(../images/Moon.webp) no-repeat center center/cover;
     color: black;
 }
 
 /* Mercury */
 #flip-card-front-mercury {
-    background: url(../images/Mercury.jpg) no-repeat center center/cover;
+    background: url(../images/Mercury.webp) no-repeat center center/cover;
     color: black;
 }
 
 /* Venus */
 #flip-card-front-venus {
-    background: url(../images/Venus.jpg) no-repeat center center/cover;
+    background: url(../images/Venus.webp) no-repeat center center/cover;
     color: black;
 }
 
 /* Mars */
 #flip-card-front-mars {
-    background: url(../images/Mars.jpg) no-repeat center center/cover;
+    background: url(../images/Mars.webp) no-repeat center center/cover;
     color: black;
 }
 
 /* Jupiter */
 #flip-card-front-jupiter {
-    background: url(../images/Jupiter.jpg) no-repeat center center/cover;
+    background: url(../images/Jupiter.webp) no-repeat center center/cover;
     color: black;
 }
 
 /* Saturn */
 #flip-card-front-saturn {
-    background: url(../images/Saturn.jpg) no-repeat center center/cover;
+    background: url(../images/Saturn.webp) no-repeat center center/cover;
     color: black;
 }
 
 /* Uranus */
 #flip-card-front-uranus {
-    background: url(../images/Uranus.jpg) no-repeat center center/cover;
+    background: url(../images/Uranus.webp) no-repeat center center/cover;
     color: black;
 }
 
 /* Neptune */
 #flip-card-front-neptune {
-    background: url(../images/Neptune.jpg) no-repeat center center/cover;
+    background: url(../images/Neptune.webp) no-repeat center center/cover;
     color: black;
 }
 
@@ -256,14 +260,14 @@ main {
 }
 
 /* Signup */
-section {
+#signup-form {
     padding: 1rem 0.8rem;
     margin-top: 10px;
     border: 1px solid #ffffff;
 }
 
 .bgimg {
-    background: url(../images/Signup\ background.jpg) no-repeat center center/cover;
+    background: url(../images/Signup\ background.webp) no-repeat center center/cover;
 }
 
 #topicsh3 {
@@ -306,7 +310,7 @@ footer {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        background: url(../images/esotelescope.jpg) no-repeat center center/cover;
+        background: url(../images/Header\ Background.jpg) no-repeat center center/cover;
     }
 
     /* Nav */
@@ -390,6 +394,11 @@ footer {
     #universe {
         max-width: 55%;
     }
+
+    #facts {
+        border: 1px solid #ffffff;
+        height: 850px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -403,5 +412,7 @@ footer {
         font-size: 150%;
     }
 
-
+    #facts {
+        height: 750px;
+    }
 }
