@@ -107,13 +107,12 @@ main {
     font-size: 2rem;
 }
 
-#blue-dot p {
+#blue-dot p, #oppy p {
     text-align: center;
 }
 
 #blue-dot h2 {
     font-size: 100%;
-    text-align: center;
     padding-top: 2px;
     padding-bottom: 2px;
 }
@@ -127,6 +126,20 @@ main {
 #oppy-selfie {
     background: url(../images/Oppy.webp) no-repeat center center/cover;
     height: 200px;
+}
+
+#home h2 {
+    text-align: center;
+}
+
+/* The Universe */
+#intro {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2px;
+}
+
+#list {
+    list-style-type: none;
 }
 
 /* Main Signup */
@@ -333,6 +346,13 @@ footer {
         margin-bottom: 40px;
     }
 
+    #blue-dot, #oppy {
+        float: left;
+        max-width: 50%;
+        align-items: baseline;
+        padding: 0 5px;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -352,6 +372,24 @@ footer {
         height: 200px;
         margin-bottom: 25px;
     }
+
+    #blue-dot, #oppy, #universe {
+        float: left;
+        align-items: baseline;
+        padding: 0 5px;
+    }
+
+    #blue-dot {
+        max-width: 25%;
+    }
+
+    #oppy {
+        max-width: 20%;
+    }
+
+    #universe {
+        max-width: 55%;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -364,4 +402,6 @@ footer {
     #nobr p {
         font-size: 150%;
     }
+
+
 }
