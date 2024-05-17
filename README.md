@@ -1,39 +1,96 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Astronomy
+## Intro
+The Astronomy page is an information hub that will be expanded in the future. As of now, people can come to this website and read some interesting facts about the solar system and universe us humans reside in. People who have a broad interest in astronomy can find something here that will catch their eye.
 
-Welcome,
+People can simply browse the website of their own accord and if they like whaht they see, can sign up for a weekly newsletting as well as join group astronomy outtings.
+## Responsiveness
+The site is 100% responsive to all media sizes however, there is plans to impove the look on some devices
+![responsiveness image](https://i.ibb.co/qy1prnS/Responsiveness.jpg)
+## Features
+1. The Header/Nav bar
+   - The header is the nav bar and allows users to navivate the 3 pages on the site.. the home page, the solar system page and the signup page.
+   - Has 2 variations depending on screen size and rotation.
+   - has a image as a background that is responsive.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Desktop header/nav image:
+![header/nav snapshot image](https://i.ibb.co/4KTpS9z/Header-Snapshot.png)
+Closed header/nav image for mobile phones:
+![mobile header/nav snapshot image closed](https://i.ibb.co/y6xzNpR/Mobile-Header-Snapshot.png)
+Open:
+![mobile header/nav snapshot image open](https://i.ibb.co/DfdCLkT/Mobile-Header-Snapshot-Open.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Desktop header/nav image
+![header/nav snapshot image](https://i.ibb.co/4KTpS9z/Header-Snapshot.png)
+Closed header/nav image for mobile phones
+![mobile header/nav snapshot image closed](https://i.ibb.co/y6xzNpR/Mobile-Header-Snapshot.png)
+Open
+![mobile header/nav snapshot image open](https://i.ibb.co/DfdCLkT/Mobile-Header-Snapshot-Open.png)
 
-## Codeanywhere Reminders
+2. Home Page
+   - The home page consists of 2 main section, the hero image with small cover text in order to let the user use the amazing photo. 
+   - The content below is interesting information that might make people think 'oh.. I want to know more about that.'
+   - The home page is not ideal and needs some polishing for tablet screens and larger.
+   
+General mobile look:
+![mobile home snapshot image](https://i.ibb.co/ZKmJWYZ/Mobile-Home-Universe-Page.png)
+General tablet look:
+![tablet home snapshot image](https://i.ibb.co/DgKGnmt/Tablet-Home-Universe-Page.png)
+General desktop look:
+![desktop home snapshot image](https://i.ibb.co/qswhX67/Desktop-Home-Universe-Page.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+3. The Solar System Page
+   -  The solar system page Showcases the 8 planets of the solar system (theres 9 but lets not talk about that) as well as the moon and the sun. 
+   -  information is dispersed in 2 steps, first the image of the object such as the Earth or Mars, and then flipped over is the information. These flip cards are responsive to various screen sizes
 
-`python3 -m http.server`
+Desktop unflipped look:
+![desktop solar system snapshot image](https://i.ibb.co/XLBsx8C/Solar-System-Desktop-Page-Unflipped.png)
+Desktop flipped look:
+![desktop solar system snapshot image](https://i.ibb.co/nkJXHdy/Solar-System-Desktop-Page-Flipped.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+4. The Signup Page
+   - The signup page not only lets you sign up for a newsletter, but also gives you the option to tailor that email to your interests.
+   - There is also an option for people to sign up to an astronomy meet club if they wanted to. More will be added to this part such as information about the meet ups - where they are and what benefits you get from joining.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Desktop signup page:
+![desktop Signup snapshot image](https://i.ibb.co/RN6NBp0/Desktop-Signup-Page.png)
 
-`http_server`
+5. Footer 
+   - The footer houses the 4 social media links and exapans evenly depending on screen size.
+   - Favicons we're used to style the footer.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Mobile footer img:
+![desktop Signup snapshot image](https://i.ibb.co/DMrptwN/Mobile-Footer-img.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Testing
+1. Tested to confirm the website works on all major platforms, Chrome, Firefox, Safari and Microsoft Edge.
+2. Tested responsiveness of the site on different screen sizes. Responsiveness was good however tweaks could be made for user experence improvements
+3. Lighthouse testing can be hit and miss in regards to performance depending on internet connection and due to the large number of pictures its hard to speed this up. All images that yeilded a lower file size when converted from jpg to webp were used.
+4. CSS W3C jigsaw validator found no faults.
+5. HTML W3C validator found no faults
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Lighthouse Results
+Home:
+![lighthouse home results snapshot image](https://i.ibb.co/g6rjSHv/Lighthouse-Home-Results.jpg)
+Solar system:
+![lighthouse solar systemresults snapshot image](https://i.ibb.co/ZLLK38T/Lighthouse-Solar-System-Results.jpg)
+Signup:
+![lighthouse signup results snapshot image](https://i.ibb.co/5s29874/Lighthouse-Signup-Results.jpg)
 
-To log into the Heroku toolbelt CLI:
+## Deployment
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+To deploy the project I followed these steps starting from the main project repository [here](https://github.com/Precursorr/Astronomy-Portfolio-1).
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+ 1. On the navigation bar I clicked `settings`.
+ 2. From there I selected `pages`.
+ 3. From there I selected the `main` option in the dropdown menu within the `build and deployment` section.
+ 4. I Selected `save` after this, not touching any other options. After a few moment of waiting I clicked the link to view my page in real time. 
+ 
+## Credits
 
----
+1. All images we're sourced using [pexels](https://www.pexels.com/) and [pixabay](https://pixabay.com/).
+2. All images we're compressed using [FreeConvert](https://www.freeconvert.com/).
+3. The flip cards idea was brought to me by my mentor Alan, you can find his git hub [here](https://github.com/Alan-Bushell).
+4. I used [w3cschools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) to help me with any parts I was struggling with, such as getting divs to float left from Stack and the flip cards from w3c.
+5. The template for this project was souced from [Code-Institute-Org](https://github.com/Code-Institute-Org/ci-full-template) on Github. 
 
-Happy coding!
+# `Thank you for your time` 
