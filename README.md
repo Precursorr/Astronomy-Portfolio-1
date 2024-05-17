@@ -1,12 +1,11 @@
 # Astronomy
 ## Intro
-<br>
+
 The Astronomy page is an information hub that will be expanded in the future. As of now, people can come to this website and read some interesting facts about the solar system and universe us humans reside in. People who have a broad interest in astronomy can find something here that will catch their eye.
 
 People can simply browse the website of their own accord and if they like whaht they see, can sign up for a weekly newsletting as well as join group astronomy outtings.
 
 ## Responsiveness
-<br>
 The site is 100% responsive to all media sizes however, there is plans to impove the look on some devices
 
 ![Responsiveness](assets/README.md-images/Responsiveness.jpg)
@@ -17,7 +16,6 @@ The site is 100% responsive to all media sizes however, there is plans to impove
    - Has 2 variations depending on screen size and rotation.
    - has a image as a background that is responsive.
 
-<br>
 Desktop header/nav image:
 
 ![Desktop header snapshot image](<assets/README.md-images/Header Snapshot.png>)
