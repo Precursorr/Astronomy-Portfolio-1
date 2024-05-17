@@ -7,7 +7,7 @@ People can simply browse the website of their own accord and if they like whaht 
 ## Responsiveness
 <br>
 The site is 100% responsive to all media sizes however, there is plans to impove the look on some devices
-![responsiveness image](https://i.ibb.co/qy1prnS/Responsiveness.jpg)
+![responsiveness image](assets/README.md-images/Responsiveness.jpg)
 ## Features
 <br>
 1. The Header/Nav bar
