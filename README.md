@@ -19,13 +19,6 @@ Closed header/nav image for mobile phones:
 Open:
 ![mobile header/nav snapshot image open](https://i.ibb.co/DfdCLkT/Mobile-Header-Snapshot-Open.png)
 
-Desktop header/nav image
-![header/nav snapshot image](https://i.ibb.co/4KTpS9z/Header-Snapshot.png)
-Closed header/nav image for mobile phones
-![mobile header/nav snapshot image closed](https://i.ibb.co/y6xzNpR/Mobile-Header-Snapshot.png)
-Open
-![mobile header/nav snapshot image open](https://i.ibb.co/DfdCLkT/Mobile-Header-Snapshot-Open.png)
-
 2. Home Page
    - The home page consists of 2 main section, the hero image with small cover text in order to let the user use the amazing photo. 
    - The content below is interesting information that might make people think 'oh.. I want to know more about that.'
